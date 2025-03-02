@@ -1,0 +1,598 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "slug": "web-development",
+      "icon": "FaCode",
+      "description": "Learn to build modern websites and applications with the latest web technologies",
+      "image": "/images/categories/web-development.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Design",
+      "slug": "design",
+      "icon": "FaPalette",
+      "description": "Master design principles and tools to create beautiful user interfaces",
+      "image": "/images/categories/design.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Business",
+      "slug": "business",
+      "icon": "FaBriefcase",
+      "description": "Develop essential business skills to advance your career or start your own company",
+      "image": "/images/categories/business.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Marketing",
+      "slug": "marketing",
+      "icon": "FaBullhorn",
+      "description": "Learn digital marketing strategies to grow your business online",
+      "image": "/images/categories/marketing.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Photography",
+      "slug": "photography",
+      "icon": "FaCamera",
+      "description": "Master photography techniques and edit photos like a professional",
+      "image": "/images/categories/photography.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Language Learning",
+      "slug": "language-learning",
+      "icon": "FaLanguage",
+      "description": "Learn new languages and improve your communication skills",
+      "image": "/images/categories/language-learning.jpg"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Complete Web Development Bootcamp",
+      "slug": "complete-web-development-bootcamp",
+      "categoryId": 1,
+      "instructor": "John Smith",
+      "rating": 4.8,
+      "reviewCount": 2345,
+      "studentsCount": 12500,
+      "price": 89.99,
+      "discountPrice": 19.99,
+      "duration": "48 hours",
+      "level": "Beginner to Advanced",
+      "description": "Learn web development from scratch. This comprehensive course covers HTML, CSS, JavaScript, React, Node.js and more. By the end, you'll be able to build complete web applications.",
+      "image": "/images/courses/web-development.jpg",
+      "lastUpdated": "November 2023",
+      "language": "English",
+      "features": [
+        "60+ hours of video content",
+        "20 coding exercises",
+        "15 real-world projects",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Introduction to Web Development",
+          "lessons": [
+            "What is Web Development?",
+            "Setting Up Your Development Environment",
+            "Understanding How the Web Works"
+          ]
+        },
+        {
+          "title": "HTML Fundamentals",
+          "lessons": [
+            "HTML Document Structure",
+            "Working with Text and Links",
+            "Creating Forms and Tables"
+          ]
+        },
+        {
+          "title": "CSS Styling",
+          "lessons": [
+            "CSS Selectors and Properties",
+            "Box Model and Layout",
+            "Responsive Design with Media Queries"
+          ]
+        },
+        {
+          "title": "JavaScript Programming",
+          "lessons": [
+            "JavaScript Syntax and Variables",
+            "Functions and Objects",
+            "DOM Manipulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "UI/UX Design Masterclass",
+      "slug": "ui-ux-design-masterclass",
+      "categoryId": 2,
+      "instructor": "Sarah Johnson",
+      "rating": 4.9,
+      "reviewCount": 1876,
+      "studentsCount": 9800,
+      "price": 94.99,
+      "discountPrice": 24.99,
+      "duration": "36 hours",
+      "level": "Intermediate",
+      "description": "Master the art of UI/UX design. Learn design principles, wireframing, prototyping, and user research. Create stunning interfaces that users will love.",
+      "image": "/images/courses/ui-ux-design.jpg",
+      "lastUpdated": "October 2023",
+      "language": "English",
+      "features": [
+        "40+ hours of video content",
+        "10 design projects",
+        "Figma templates included",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Design Fundamentals",
+          "lessons": [
+            "Color Theory",
+            "Typography",
+            "Layout Principles"
+          ]
+        },
+        {
+          "title": "User Research",
+          "lessons": [
+            "User Personas",
+            "User Journey Mapping",
+            "Conducting User Interviews"
+          ]
+        },
+        {
+          "title": "Wireframing and Prototyping",
+          "lessons": [
+            "Low-Fidelity Wireframes",
+            "Interactive Prototypes",
+            "User Testing"
+          ]
+        },
+        {
+          "title": "Design Systems",
+          "lessons": [
+            "Creating Component Libraries",
+            "Design Tokens",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Digital Marketing Strategy",
+      "slug": "digital-marketing-strategy",
+      "categoryId": 4,
+      "instructor": "Michael Brown",
+      "rating": 4.7,
+      "reviewCount": 1245,
+      "studentsCount": 7500,
+      "price": 79.99,
+      "discountPrice": 17.99,
+      "duration": "30 hours",
+      "level": "Beginner",
+      "description": "Learn how to create effective digital marketing strategies. Master SEO, social media marketing, email campaigns, and content marketing to grow your business online.",
+      "image": "/images/courses/digital-marketing.jpg",
+      "lastUpdated": "December 2023",
+      "language": "English",
+      "features": [
+        "30+ hours of video content",
+        "Marketing plan templates",
+        "Real-world case studies",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Marketing Fundamentals",
+          "lessons": [
+            "Understanding Your Target Audience",
+            "Building a Marketing Strategy",
+            "Setting Marketing Goals"
+          ]
+        },
+        {
+          "title": "Search Engine Optimization",
+          "lessons": [
+            "Keyword Research",
+            "On-Page SEO",
+            "Link Building Strategies"
+          ]
+        },
+        {
+          "title": "Social Media Marketing",
+          "lessons": [
+            "Platform Selection",
+            "Content Creation",
+            "Engagement Strategies"
+          ]
+        },
+        {
+          "title": "Email Marketing",
+          "lessons": [
+            "Building Email Lists",
+            "Creating Effective Campaigns",
+            "Analyzing Results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "English for Beginners",
+      "slug": "english-for-beginners",
+      "categoryId": 6,
+      "instructor": "Emma Wilson",
+      "rating": 4.6,
+      "reviewCount": 2156,
+      "studentsCount": 15600,
+      "price": 69.99,
+      "discountPrice": 14.99,
+      "duration": "40 hours",
+      "level": "Beginner",
+      "description": "Start your journey to English fluency. This course covers basic vocabulary, grammar, pronunciation, and conversation skills for complete beginners.",
+      "image": "/images/courses/english-language.jpg",
+      "lastUpdated": "September 2023",
+      "language": "English with subtitles",
+      "features": [
+        "40+ hours of video content",
+        "Pronunciation practice",
+        "Interactive exercises",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Basic Vocabulary",
+          "lessons": [
+            "Greetings and Introductions",
+            "Numbers and Counting",
+            "Everyday Objects"
+          ]
+        },
+        {
+          "title": "Grammar Foundations",
+          "lessons": [
+            "Present Simple Tense",
+            "Articles and Prepositions",
+            "Question Formation"
+          ]
+        },
+        {
+          "title": "Pronunciation",
+          "lessons": [
+            "Vowel Sounds",
+            "Consonant Sounds",
+            "Stress and Intonation"
+          ]
+        },
+        {
+          "title": "Conversation Practice",
+          "lessons": [
+            "Ordering Food",
+            "Asking for Directions",
+            "Making Small Talk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Photography Fundamentals",
+      "slug": "photography-fundamentals",
+      "categoryId": 5,
+      "instructor": "David Chen",
+      "rating": 4.8,
+      "reviewCount": 1532,
+      "studentsCount": 8900,
+      "price": 84.99,
+      "discountPrice": 19.99,
+      "duration": "28 hours",
+      "level": "Beginner to Intermediate",
+      "description": "Master the art of photography. Learn camera settings, composition, lighting, and editing techniques to take stunning photos in any situation.",
+      "image": "/images/courses/photography.jpg",
+      "lastUpdated": "October 2023",
+      "language": "English",
+      "features": [
+        "28+ hours of video content",
+        "Photography assignments",
+        "Editing presets included",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Camera Basics",
+          "lessons": [
+            "Understanding Your Camera",
+            "Exposure Triangle",
+            "Focus and Depth of Field"
+          ]
+        },
+        {
+          "title": "Composition",
+          "lessons": [
+            "Rule of Thirds",
+            "Leading Lines",
+            "Framing and Perspective"
+          ]
+        },
+        {
+          "title": "Lighting",
+          "lessons": [
+            "Natural Light",
+            "Artificial Lighting",
+            "Light Modifiers"
+          ]
+        },
+        {
+          "title": "Photo Editing",
+          "lessons": [
+            "Basic Adjustments",
+            "Color Correction",
+            "Retouching Techniques"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Business Management Essentials",
+      "slug": "business-management-essentials",
+      "categoryId": 3,
+      "instructor": "Robert Taylor",
+      "rating": 4.7,
+      "reviewCount": 1245,
+      "studentsCount": 6800,
+      "price": 89.99,
+      "discountPrice": 21.99,
+      "duration": "32 hours",
+      "level": "Intermediate",
+      "description": "Develop essential business management skills. Learn leadership, strategic planning, financial management, and team building to advance your career.",
+      "image": "/images/courses/business-management.jpg",
+      "lastUpdated": "November 2023",
+      "language": "English",
+      "features": [
+        "32+ hours of video content",
+        "Business plan templates",
+        "Case studies",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Leadership Fundamentals",
+          "lessons": [
+            "Leadership Styles",
+            "Effective Communication",
+            "Building High-Performance Teams"
+          ]
+        },
+        {
+          "title": "Strategic Planning",
+          "lessons": [
+            "Vision and Mission Development",
+            "SWOT Analysis",
+            "Goal Setting and KPIs"
+          ]
+        },
+        {
+          "title": "Financial Management",
+          "lessons": [
+            "Budgeting Basics",
+            "Financial Statements",
+            "Investment Decision Making"
+          ]
+        },
+        {
+          "title": "Operations Management",
+          "lessons": [
+            "Process Optimization",
+            "Quality Management",
+            "Supply Chain Basics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Advanced JavaScript Programming",
+      "slug": "advanced-javascript-programming",
+      "categoryId": 1,
+      "instructor": "Alex Rodriguez",
+      "rating": 4.9,
+      "reviewCount": 1876,
+      "studentsCount": 7200,
+      "price": 94.99,
+      "discountPrice": 24.99,
+      "duration": "36 hours",
+      "level": "Advanced",
+      "description": "Take your JavaScript skills to the next level. Master advanced concepts like closures, prototypes, async programming, and modern ES6+ features.",
+      "image": "/images/courses/javascript.jpg",
+      "lastUpdated": "December 2023",
+      "language": "English",
+      "features": [
+        "36+ hours of video content",
+        "Coding challenges",
+        "Real-world projects",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "JavaScript Deep Dive",
+          "lessons": [
+            "Execution Context and Scope",
+            "Closures and Lexical Environment",
+            "Prototypal Inheritance"
+          ]
+        },
+        {
+          "title": "Asynchronous JavaScript",
+          "lessons": [
+            "Callbacks and Promises",
+            "Async/Await",
+            "Event Loop"
+          ]
+        },
+        {
+          "title": "Modern JavaScript",
+          "lessons": [
+            "ES6+ Features",
+            "Modules and Bundlers",
+            "Functional Programming"
+          ]
+        },
+        {
+          "title": "Advanced Applications",
+          "lessons": [
+            "Data Structures and Algorithms",
+            "Design Patterns",
+            "Performance Optimization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Graphic Design for Beginners",
+      "slug": "graphic-design-for-beginners",
+      "categoryId": 2,
+      "instructor": "Lisa Wong",
+      "rating": 4.7,
+      "reviewCount": 1532,
+      "studentsCount": 8400,
+      "price": 79.99,
+      "discountPrice": 18.99,
+      "duration": "30 hours",
+      "level": "Beginner",
+      "description": "Start your graphic design journey. Learn design principles, typography, color theory, and how to use industry-standard tools like Photoshop and Illustrator.",
+      "image": "/images/courses/graphic-design.jpg",
+      "lastUpdated": "October 2023",
+      "language": "English",
+      "features": [
+        "30+ hours of video content",
+        "Design projects",
+        "Resource files included",
+        "Lifetime access",
+        "Certificate of completion"
+      ],
+      "curriculum": [
+        {
+          "title": "Design Fundamentals",
+          "lessons": [
+            "Elements of Design",
+            "Principles of Design",
+            "Color Theory"
+          ]
+        },
+        {
+          "title": "Typography",
+          "lessons": [
+            "Font Selection",
+            "Text Hierarchy",
+            "Typographic Layouts"
+          ]
+        },
+        {
+          "title": "Adobe Photoshop",
+          "lessons": [
+            "Interface and Tools",
+            "Image Editing",
+            "Creating Compositions"
+          ]
+        },
+        {
+          "title": "Adobe Illustrator",
+          "lessons": [
+            "Vector Basics",
+            "Creating Logos",
+            "Illustration Techniques"
+          ]
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "James Wilson",
+      "role": "Web Developer",
+      "image": "/images/testimonials/person1.jpg",
+      "text": "The Web Development Bootcamp completely changed my career. I went from knowing nothing about coding to landing a job as a junior developer in just 6 months. The instructor explains complex concepts in a way that's easy to understand."
+    },
+    {
+      "id": 2,
+      "name": "Maria Garcia",
+      "role": "UI Designer",
+      "image": "/images/testimonials/person2.jpg",
+      "text": "The UI/UX Design Masterclass helped me transition from graphic design to UI design. The projects were challenging but extremely rewarding, and I now have an amazing portfolio that helped me land my dream job."
+    },
+    {
+      "id": 3,
+      "name": "Thomas Lee",
+      "role": "Marketing Manager",
+      "image": "/images/testimonials/person3.jpg",
+      "text": "The Digital Marketing Strategy course provided practical knowledge that I could immediately apply to my work. Our company's online presence has improved significantly since I implemented the strategies I learned."
+    },
+    {
+      "id": 4,
+      "name": "Sophia Chen",
+      "role": "Language Teacher",
+      "image": "/images/testimonials/person4.jpg",
+      "text": "As a language teacher, I took the English for Beginners course to understand how online language courses are structured. The methodology was excellent, and I've incorporated many of the teaching techniques into my own classes."
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Senior Web Developer",
+      "image": "/images/instructors/instructor1.jpg",
+      "bio": "John has over 10 years of experience in web development and has worked with companies like Google and Facebook. He specializes in full-stack development and loves teaching beginners.",
+      "courses": 12,
+      "students": 45000,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "role": "UX Design Lead",
+      "image": "/images/instructors/instructor2.jpg",
+      "bio": "Sarah is a UX design lead with experience at top tech companies. She has a passion for creating user-centered designs and has mentored dozens of designers throughout her career.",
+      "courses": 8,
+      "students": 32000,
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "role": "Digital Marketing Consultant",
+      "image": "/images/instructors/instructor3.jpg",
+      "bio": "Michael has helped hundreds of businesses improve their online presence. He specializes in SEO, content marketing, and social media strategy.",
+      "courses": 10,
+      "students": 28000,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Emma Wilson",
+      "role": "TEFL Certified English Teacher",
+      "image": "/images/instructors/instructor4.jpg",
+      "bio": "Emma has been teaching English for over 15 years. She has a TEFL certification and has taught students from over 50 countries.",
+      "courses": 6,
+      "students": 38000,
+      "rating": 4.6
+    }
+  ]
+}
